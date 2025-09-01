@@ -31,7 +31,7 @@ let playerList = [
     favorites: ['Football', 'Smash Bros.'],
   },
 ];
-console.log(playerList[1].favorites);
+console.log(playerList[1].favorites[1]);
 // Q5 四則演算
 let ageAve = 0;
 for(let i = 0; i < playerList.length; i++) {
