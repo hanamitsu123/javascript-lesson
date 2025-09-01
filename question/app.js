@@ -39,7 +39,7 @@ ageAve += (playerList[i].age);
 }
 console.log(ageAve / playerList.length);
 // Q6 関数
-function sayHello( ) {
+function sayHello() {
   console.log('Hello');
 }
 sayHello();
