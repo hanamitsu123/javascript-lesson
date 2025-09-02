@@ -73,9 +73,9 @@ calc.divide = function(x, y) {
 calc.divide(10, 2);
 //Q9 返り値
 function remainder(x, y) {
-  console.log(`${x}を${y}で割ったあまりは${x%y}です。` );
+  return x % y;
 }
-remainder(10, 3);
+console.log('5 を 3 で割った余りは' + remainder(5, 3) + 'です。');
 //Q10 スコープ
 // function foo() {
 //   let x = 1;
